@@ -1,0 +1,23 @@
+{
+  "name": "etch-a-sketch",
+  "version": "1.0.0",
+  "description": "done for odin",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel ./index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miradii/Etch-A-Sketch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miradii/Etch-A-Sketch/issues"
+  },
+  "homepage": "https://github.com/miradii/Etch-A-Sketch#readme",
+  "dependencies": {
+    "ramda": "^0.27.1"
+  }
+}
