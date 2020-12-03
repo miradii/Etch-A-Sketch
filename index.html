@@ -1,16 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Etch A Sketch</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <main>
-      <section class="pad-container">
-        <div class="pad"></div>
-      </section>
-    </main>
-    <script type="module" src="./script.js"></script>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Etch A Sketch</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<main>
+			<section class="pad-container">
+				<div class="pad"></div>
+				<div class="options">
+					<label for="row-input">
+						Number of Rows:
+						<input
+							class="row-input"
+							id="row-input"
+							name="row-input"
+							type="number"
+							min="2"
+							max="100"
+							value="16"
+						/>
+					</label>
+					<input
+						type="submit"
+						name="apply"
+						id="apply-btn"
+						value="apply"
+						class="btn"
+					/>
+					<input type="submit" name="apply" id="clear-btn" value="clear" class="btn"/>
+				</div>
+			</section>
+		</main>
+		<script type="module" src="./script.js"></script>
+	</body>
 </html>
